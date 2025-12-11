@@ -15,7 +15,7 @@ const Page4 = () => {
           </div>
         </div>
         <div className='w-1/2 '>
-          <video autoPlay loop muted className='w-full h-[100%] object-cover' src="/rounded-planet.mp4"></video>
+          <video autoPlay loop muted className='w-full h-full object-cover' src="/rounded-planet.mp4"></video>
         </div>
       </div>
     </div>
