@@ -35,8 +35,8 @@ const Page1 = () => {
 
 
   return (
-    <div onMouseMove={(e) => { mouseMoving(e) }} className='h-screen p-4 bg-white w-[100vw]'>
-      <div id='page1-in' className=' relative h-full p-18 w-full shadow-xl shadow-gray-700 rounded-4xl bg-[url(/ANZO.avif)] bg-cover bg-center'>
+    <div onMouseMove={(e) => { mouseMoving(e) }} className='h-screen p-2 bg-white w-[99vw]'>
+      <div id='page1-in' className=' relative h-full p-18 w-full shadow-xl shadow-gray-700  bg-[url(/ANZO.avif)] bg-cover bg-center rounded-3xl'>
         <img src="/Frame-53.png" className='h-20 ' alt="Frame PNG" />
         <TiltText angle={tiltRef}/>
         <Page1Bottom />

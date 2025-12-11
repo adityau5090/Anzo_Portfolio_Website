@@ -15,11 +15,11 @@ const Page1Bottom = () => {
     })
     return (
         <div className=' absolute bottom-0 left-0 px-18 w-full flex justify-between items-end mb-3'>
-            <div>
+            <div className='mx-5'>
                 <p className='text-[2vw] font-[anzo5]'>BRAND DESIGN | WEBSITE DESIGN</p>
                 <p className='text-[2vw] font-[anzo3] text-gray-300'>BESPOKE FREELANCE</p>
             </div>
-            <div id='banner'>
+            <div id='banner' className='mx-2'>
                 <img className='mb-4' src="/Page1-bottom-img1.avif" alt="bottom-img-1" />
                 <img className='mb-4' src="/Page1-bottom-img2.avif" alt="bottom-img-2" />
             </div>
