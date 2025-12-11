@@ -16,6 +16,11 @@ const Page1 = () => {
     // console.log(tiltRef.current.getBoundingClientRect().x)
     // console.log(tiltRef.current.getBoundingClientRect().width)    
 
+
+    // console.log("X: ",(e.clientX - tiltRef.current.getBoundingClientRect().x - tiltRef.current.getBoundingClientRect().width / 2))
+    // console.log("Y: ",(e.clientY - tiltRef.current.getBoundingClientRect().y - tiltRef.current.getBoundingClientRect().height / 2))
+
+    
     setXVal((e.clientX - tiltRef.current.getBoundingClientRect().x - tiltRef.current.getBoundingClientRect().width / 2) / 30)
     setYVal(-(e.clientY - tiltRef.current.getBoundingClientRect().y - tiltRef.current.getBoundingClientRect().height / 2) / 10)
   }
